@@ -54,7 +54,7 @@ run_test "Repository is a git repository" "[ -d '$REPO_ROOT/.git' ]"
 run_test "Test file exists" "[ -f '$REPO_ROOT/++.test_file.c++' ]"
 
 # Test 6: Test file contains expected content
-run_test "Test file contains expected content" "grep -q 'Test file' '$REPO_ROOT/++.test_file.c++'"
+run_test "Test file contains expected content" "grep -qx 'Test file' '$REPO_ROOT/++.test_file.c++'"
 
 # Test 7: Tests directory exists
 run_test "Tests directory exists" "[ -d '$REPO_ROOT/tests' ]"
