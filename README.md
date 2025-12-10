@@ -50,7 +50,8 @@ The project includes comprehensive test coverage:
 
 ### Test Statistics
 
-- 50+ test cases covering all methods
+- 36 test cases covering all methods
+- 100% code coverage achieved
 - 80%+ code coverage threshold enforced
 - Tests for success scenarios, error scenarios, and edge cases
 
@@ -80,6 +81,8 @@ github-skills-demo/
 │   └── github-api.js       # Main API wrapper implementation
 ├── __tests__/
 │   └── github-api.test.js  # Comprehensive test suite
+├── examples/
+│   └── usage-example.js    # Example usage demonstrations
 ├── jest.config.js          # Jest configuration
 ├── package.json            # Project dependencies and scripts
 └── README.md              # This file
