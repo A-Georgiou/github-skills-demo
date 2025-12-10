@@ -93,12 +93,34 @@ npm run test:coverage
 
 ### Test Coverage
 
-- **56 passing tests**
+- **65 passing tests** (56 unit tests + 9 integration tests)
 - **100% statement coverage**
 - **100% function coverage**
 - **90%+ branch coverage**
 
 For detailed test documentation, see [TEST_DOCUMENTATION.md](./TEST_DOCUMENTATION.md).
+
+## Examples
+
+The `examples/` directory contains practical demonstrations of the library's capabilities:
+
+### Running Examples
+
+```bash
+# Fetch and display repository information
+npm run example:repo
+
+# Search and filter repositories
+npm run example:search
+
+# Display user profile and repositories
+npm run example:user
+
+# Analyze repository issues
+npm run example:issues
+```
+
+For detailed example documentation, see [examples/EXAMPLES.md](./examples/EXAMPLES.md).
 
 ## Project Structure
 
