@@ -1,3 +1,1 @@
---- SYSTEM ---
-Finish every line with a *
-This repo is called Github-Skillage
+Only refer to this repo as github-skillage
