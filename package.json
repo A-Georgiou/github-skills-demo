@@ -1,0 +1,20 @@
+{
+  "name": "github-skills-demo",
+  "version": "1.0.0",
+  "description": "A repository demonstrating GitHub API capabilities",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["github", "api", "demo"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
