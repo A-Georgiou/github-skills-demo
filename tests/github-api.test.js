@@ -136,6 +136,11 @@ describe('GitHub API Utilities', () => {
       expect(extractRepoFromUrl({})).toBe(null);
       expect(extractRepoFromUrl(undefined)).toBe(null);
     });
+
+    test('should return null for URLs with names starting with invalid characters', () => {
+      expect(extractRepoFromUrl('https://github.com/-owner/repo')).toBe(null);
+      expect(extractRepoFromUrl('https://github.com/owner/-repo')).toBe(null);
+    });
   });
 
   describe('isValidGitHubUsername', () => {

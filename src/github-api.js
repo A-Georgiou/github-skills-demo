@@ -85,7 +85,8 @@ function extractRepoFromUrl(url) {
   }
   
   // Match github.com URLs
-  const githubPattern = /github\.com\/([a-zA-Z0-9_-]+)\/([a-zA-Z0-9_-]+)/;
+  // Pattern matches GitHub's naming rules: start/end with alphanumeric, can contain underscores and hyphens
+  const githubPattern = /github\.com\/([a-zA-Z0-9](?:[a-zA-Z0-9_-]*[a-zA-Z0-9])?)\/([a-zA-Z0-9](?:[a-zA-Z0-9_-]*[a-zA-Z0-9])?)/;
   const match = url.match(githubPattern);
   
   if (!match) {
