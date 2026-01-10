@@ -1,7 +1,7 @@
 # github-skillage Repository Research Report
 
-**Repository:** A-Georgiou/github-skills-demo  
-**Custom Name:** github-skillage (per custom instructions)  
+**Repository:** A-Georgiou/github-skillage  
+**GitHub URL:** github.com/A-Georgiou/github-skills-demo  
 **Report Date:** January 10, 2026  
 **Analyzed By:** GitHub Copilot Coding Agent
 
@@ -107,10 +107,11 @@ All feature branches are Copilot-generated and represent different experimental 
   - Test file (tests/test_demo.py)
 - **Significance:** This PR contained the actual demo code that would fulfill the repository's stated purpose. Its closure without merge left main branch empty of implementation.
 
-#### PR #2: "Create ++.test_file.c++" (CLOSED, MERGED)
+#### PR #2: "Create ++.test_file.c++" (CLOSED, NOT MERGED TO MAIN)
 - **Created:** Sept 18, 2025
-- **Status:** Closed Sept 18, 2025 (same day, merged to branch)
+- **Status:** Closed Sept 18, 2025 (same day)
 - **Branch:** A-Georgiou-patch-1
+- **Note:** Changes remain on branch only, not merged to main
 - **Content:** Added test file with unconventional naming
 
 #### Recent Copilot PRs (PR #3-13, All Dec 2025 - Jan 2026)
@@ -222,7 +223,7 @@ The repository has explicit naming guidance:
 - ✅ Custom instructions
 - ❌ Everything else
 
-**Gap:** 90% of expected content missing from main branch
+**Gap:** Substantial majority of expected content missing from main branch (9 out of 10 typical components absent)
 
 ---
 
@@ -260,10 +261,11 @@ The repository has explicit naming guidance:
 5. **Test Debt:** Multiple test approaches, none integrated
 
 **Estimated Effort to Address:**
-- Restore demo code: 1-2 hours
-- Add missing files: 2-3 hours
-- Clean up branches: 1 hour
-- Total: ~6 hours to reach "healthy demo repo" state
+*Note: These are rough estimates based on typical repository setup tasks*
+- Restore demo code from PR #1: 1-2 hours (review, update dependencies, test)
+- Add missing standard files (LICENSE, .gitignore, etc.): 2-3 hours
+- Clean up and consolidate branches: 1 hour
+- Total: ~4-6 hours to reach "healthy demo repo" state
 
 ---
 
